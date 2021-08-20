@@ -78,6 +78,7 @@ public class ListAsyncTask extends AsyncTask<Void, Integer, List<GuestbookVo>> {
         return guestbookList;
     }
 
+
     @Override
     protected void onProgressUpdate(Integer... values) {
         super.onProgressUpdate(values);
